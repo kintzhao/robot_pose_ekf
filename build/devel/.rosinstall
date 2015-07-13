@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yhzhao/slam_ws/src/robot_pose_ekf/build/devel/setup.sh

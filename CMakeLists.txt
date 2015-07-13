@@ -2,13 +2,19 @@ cmake_minimum_required(VERSION 2.8.3)
 project(robot_pose_ekf)
 
 # bfl (Bayesian Filtering Library) is a third party package that uses pkg-config
-find_package(PkgConfig)
-pkg_check_modules(BFL REQUIRED orocos-bfl)
+    find_package(PkgConfig)
+    pkg_check_modules(BFL REQUIRED orocos-bfl)
 
 # People building this branch of nav within groovy will need this version:
 include_directories(${BFL_INCLUDE_DIRS})
 # People building this branch of nav within hydro will need this version:
+
 include_directories(${BFL_INCLUDE_DIRS}/bfl)
+
+
+message("PROJECT_SOURCE_DIR =" ${PROJECT_SOURCE_DIR})
+include_directories(${PROJECT_SOURCE_DIR}/include)
+#include_directories(${PROJECT_SOURCE_DIR}/include/robot_pose_ekf)
 
 # when no one is building this branch in groovy anymore, the .../bfl
 # version should be removed and the

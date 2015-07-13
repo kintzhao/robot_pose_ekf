@@ -19,7 +19,7 @@
 #ifndef __NON_LINEAR_SYSTEM_CONDITIONAL_GAUSSIAN_ODO__
 #define __NON_LINEAR_SYSTEM_CONDITIONAL_GAUSSIAN_ODO__
 
-#include <pdf/analyticconditionalgaussian_additivenoise.h>
+#include </opt/ros/indigo/include/bfl/pdf/analyticconditionalgaussian_additivenoise.h>
 
 namespace BFL
 {

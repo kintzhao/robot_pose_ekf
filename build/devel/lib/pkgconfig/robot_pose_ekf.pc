@@ -1,0 +1,8 @@
+prefix=/home/yhzhao/slam_ws/src/robot_pose_ekf/build/devel
+
+Name: robot_pose_ekf
+Description: Description of robot_pose_ekf
+Version: 1.11.13
+Cflags: -I/home/yhzhao/slam_ws/src/robot_pose_ekf/build/devel/include
+Libs: -L/home/yhzhao/slam_ws/src/robot_pose_ekf/build/devel/lib 
+Requires: roscpp

@@ -134,13 +134,19 @@ private:
   MatrixWrapper::SymmetricMatrix odom_covariance_, imu_covariance_, vo_covariance_, gps_covariance_;
   bool debug_, self_diagnose_;
   std::string output_frame_, base_footprint_frame_, tf_prefix_;
+  std::string  my_frame_;
+
 
   // log files for debugging
   std::ofstream odom_file_, imu_file_, vo_file_, gps_file_, corr_file_, time_file_, extra_file_;
 
   // counters
   unsigned int odom_callback_counter_, imu_callback_counter_, vo_callback_counter_,gps_callback_counter_, ekf_sent_counter_;
+//  typedef std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other >  _frame_id_type;
+//  _frame_id_type ch;
+//  string cha;
 
+ // _frame_id_type ch  ;
 }; // class
 
 }; // namespace

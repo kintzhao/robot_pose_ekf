@@ -38,12 +38,12 @@
 
 // bayesian filtering
 // #include <bfl/filter/extendedkalmanfilter.h> // should all become like this eventually, see comments in CMakeLists.txt.
-#include <filter/extendedkalmanfilter.h>
-#include <wrappers/matrix/matrix_wrapper.h>
-#include <model/linearanalyticsystemmodel_gaussianuncertainty.h>
-#include <model/linearanalyticmeasurementmodel_gaussianuncertainty.h>
-#include <pdf/analyticconditionalgaussian.h>
-#include <pdf/linearanalyticconditionalgaussian.h>
+#include </opt/ros/indigo/include/bfl/filter/extendedkalmanfilter.h>
+#include </opt/ros/indigo/include/bfl/wrappers/matrix/matrix_wrapper.h>
+#include </opt/ros/indigo/include/bfl/model/linearanalyticsystemmodel_gaussianuncertainty.h>
+#include </opt/ros/indigo/include/bfl/model/linearanalyticmeasurementmodel_gaussianuncertainty.h>
+#include </opt/ros/indigo/include/bfl/pdf/analyticconditionalgaussian.h>
+#include </opt/ros/indigo/include/bfl/pdf/linearanalyticconditionalgaussian.h>
 #include "nonlinearanalyticconditionalgaussianodo.h"
 
 // TF
